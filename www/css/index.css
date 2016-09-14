@@ -1,0 +1,130 @@
+
+* {
+  font-family: arial, verdana;
+}
+
+body {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+paper-toolbar.slate {
+  font-size: 22px;
+  background: #333;
+  font-weight: bold;
+}
+
+paper-drawer-panel {
+  font-size: 14px;
+}
+
+paper-drawer-panel [drawer] {
+  color: white;
+  background: #444;
+}
+
+paper-drawer-panel [main] {
+  color: white;
+  background: #555;
+}
+
+.blue_fab {
+  background: #68A6BA;
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+}
+
+.small_blue {
+  font-size: 10px;
+  color: #68A6BA;
+}
+
+.logged_in_user {
+  display: inline-block;
+  position: absolute;
+  right: 12px;
+  top: 35px;
+}
+
+.align_bottom {
+  bottom: 0px;
+  margin: 10px;
+}
+
+.main_content {
+  padding-top: 12px;
+  margin: 12px;
+}
+
+paper-input-container {
+  margin: 12px;
+}
+
+paper-button.save {
+  background: #68A6BA;
+  color: white;
+  margin: 12px;
+}
+
+#videoContainer {
+  margin: 12px;
+  border: 2px #333 solid;
+}
+#videoElement {
+  background-color: #666;
+}
+
+#preview {
+  margin: 12px;
+  border: 2px #333 solid;
+  background-color: #666;
+}
+
+.cam_select {
+  padding-bottom: 12px;
+  margin: auto;
+}
+
+.takepicture{
+  width: 100px;
+  height: 100px;
+  border: 8px solid black;
+  background: lightgrey;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+
+.takepicture p {
+  text-align: center;
+  width: 100%;
+  font-size: 2em;
+}
+
+.dropdown{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  background: lightgrey;
+  height: 40px;
+  font-size: 1.4em;
+  text-align: center;
+  padding: 5px;
+}
+
+.resultscontainer{
+  padding: 20px;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0.5);;
+}

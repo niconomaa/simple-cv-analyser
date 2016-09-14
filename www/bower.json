@@ -1,0 +1,29 @@
+{
+  "name": "Slate",
+  "authors": [
+    "dgower <dgower@osalternatives.co.uk>"
+  ],
+  "description": "Slate for Chrome",
+  "main": "background.js",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.6.0",
+    "iron-elements": "PolymerElements/iron-elements#^1.0.10",
+    "paper-elements": "PolymerElements/paper-elements#^1.0.7",
+    "paper-dropdown-menu": "^1.3.5"
+  },
+  "resolutions": {
+    "polymer": "master",
+    "paper-elements": "master",
+    "iron-elements": "master"
+  }
+}
